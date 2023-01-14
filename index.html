@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap" rel="stylesheet">
+
+  <title>Frontend Mentor | Calculator app</title>
+
+</head>
+
+<body  >
+
+  <article class="calc" >
+    <header class="calc-cabecalho">
+      <h1>calc</h1>
+      <div class="calc-cabecalho-toggle">
+        <h3>theme</h3>
+
+          <div class="toggle">
+            <input type="checkbox" id="foo" aria-label="">
+            <label for="foo"></label>
+ 
+        </div>
+      </div>
+    </header>
+
+
+    <section class="calc-painel ">
+      <p id="painel"></p>
+    </section>
+
+    <section class="calc-painel-number ">
+      <button value="7" class="botao num">7</button>
+      <button value="8" class="botao num" >8</button>
+      <button value="9" class="botao num">9</button>
+      <button class="botao" id="del">DEL</button>
+
+      <button value="4" class="botao num">4</button>
+      <button value="5" class="botao num">5</button>
+      <button value="6" class="botao num">6</button>
+      <button value="+" class="botao num" >+</button>
+
+      <button value="1" class="botao num">1</button>
+      <button value="2" class="botao num">2</button>
+      <button value="3" class="botao num">3</button>
+      <button value="-" class="botao num">-</button>
+
+      <button value="." class="botao num">.</button>
+      <button value="0" class="botao num">0</button>
+      <button value="/" class="botao num">/</button>
+      <button value="*" class="botao num">x</button>
+
+      <button class="botao" id="reset">reset</button>
+      <button class="botao" id="igual">=</button>
+    </section>
+
+  </article>
+
+  <script src="./assets/js/calc.js"></script>
+</body>
+
+</html>

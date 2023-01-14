@@ -1,0 +1,65 @@
+.calc-painel-number {
+  padding: 20px;
+  background: hsl(223, 31%, 20%);
+  border-radius: 8px;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+}
+.thema section.calc-painel-number{
+  background: 	#263b62;
+}
+.botao {
+  background: hsl(30, 25%, 89%);
+  box-shadow:  0px 4px 0px  hsl(28, 16%, 65%);
+  text-align: center;
+  padding: 20px 10px 18px 10px;
+  border-radius: 10px;
+  font-family: "League Spartan";
+  font-weight: 700;
+  font-size: 2rem;
+  color: hsl(221, 14%, 31%);
+  cursor: pointer;
+}
+
+#del, #reset{
+  background: hsl(225, 21%, 49%);
+  box-shadow:  0px 4px 0px  hsl(224, 28%, 35%);
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.thema button#del,.thema button#reset{
+  background-color:#677ea8;
+}
+#reset{
+  grid-column: span 2;
+}
+#igual{
+  background:  hsl(6, 63%, 50%);
+  box-shadow:  0px 4px 0px hsl(6, 70%, 34%);
+  color: #ffffff;
+  grid-column: span 2;
+}
+.thema button#igual{
+  background: #f44336;
+}
+@media(max-width:600px){
+
+.botao{
+  padding: 15px;
+  font-size: 1.5rem;
+}
+}
+@media (max-height: 620px){
+ .botao{
+  padding: 10px;
+ }
+}
+@media (max-width: 400px){
+  .botao{
+    padding: 10px;
+    font-size: 1.3rem;
+  }
+}

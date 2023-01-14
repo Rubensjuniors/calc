@@ -1,0 +1,5 @@
+@import "./global/geral.css";
+
+@import "./calc/header.css";
+@import "./calc/painel.css";
+@import "./calc/numbers.css";
